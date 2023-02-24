@@ -11,12 +11,15 @@ let thirdOutput = document.querySelector("#third_output");
 // console.log(startDate, 'start date input')
 // console.log(firstPercent, 'first percent input')
 
+//holidays for 2023 
 let holidays = {
+  new_years_day: new Date("January 1, 2024"),
+  juneteenth: new Date("June 19, 2023"),
+  memorial_day: new Date("May 29, 2023"),
   fourth: new Date("July 4, 2023"),
+  labor_day: new Date("September 4, 2023"),
   thanksgiving: new Date("November 23, 2023"),
-  christmas_eve: new Date("December 23, 2023"),
   christmas: new Date("December 25, 2023"),
-  new_years: new Date("January 1, 2024"),
 };
 
 //days of the week:
