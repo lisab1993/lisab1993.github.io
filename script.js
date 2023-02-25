@@ -39,6 +39,9 @@ let isWeekendOrHoliday = function (date) {
   //if it returns negative, it's not a weekend or holiday
   let dayofWeek = date.getDay();
   let holidayArr = Object.values(holidays).map((day) => day.toDateString());
+  //merritt's suggestion for accounting for discretionary days: 
+  // if it's a holiday, then add a day; when it calculates the end date, pad it a bit
+  
   if (dayofWeek == 0 || dayofWeek == 6) {
     //day is a weekend
     return true;
@@ -84,7 +87,7 @@ let generateDates = function (start, end) {
     }
     i++;
   }
-
+  console.log(dates_list, 'dates list')
   return dates_list;
 };
 // console.log(
