@@ -141,12 +141,12 @@ btn.addEventListener("click", function () {
     let endEntered = new Date(endInput);
 
     // console.log(startDate.value, "start date input");
-    //   console.log(firstPercent.value, "first percent input");
+    console.log(cleanDate('Wed Mar 01 2023 00:00:01 GMT-0800 (Pacific Standard Time)'), 'clean date')
     let currentClassList = generateDates(startEntered, endEntered)
     let list = document.createElement('ol')
     for (let i=0; i<currentClassList.length; ++i) {
         let listItem = document.createElement('li')
-        listItem.innerHTML = cleanDate(currentClassList[i])
+        listItem.innerHTML = cleanDate(currentClassList[i].toString())
         list.appendChild(listItem)
     }
     allDates.appendChild(list)
