@@ -146,7 +146,7 @@ btn.addEventListener("click", function () {
     let list = document.createElement('ol')
     for (let i=0; i<currentClassList.length; ++i) {
         let listItem = document.createElement('li')
-        listItem.innerHTML = currentClassList[i]
+        listItem.innerHTML = cleanDate(currentClassList[i])
         list.appendChild(listItem)
     }
     allDates.appendChild(list)
