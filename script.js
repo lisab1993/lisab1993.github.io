@@ -23,6 +23,7 @@ let holidays = {
     fourth_23: new Date("July 4, 2023"),
     labor_day_23: new Date("September 4, 2023"),
     thanksgiving_23: new Date("November 23, 2023"),
+    thanksgiving_post_23: new Date("November 24, 2023"),
     christmas_23: new Date("December 25, 2023"),
     new_years_23: new Date("January 1, 2023"),
     juneteenth_22: new Date("June 19, 2022"),
@@ -30,6 +31,7 @@ let holidays = {
     fourth_22: new Date("July 4, 2022"),
     labor_day_22: new Date("September 5, 2022"),
     thanksgiving_22: new Date("November 24, 2022"),
+    thanksgiving_post_22: new Date("November 25, 2022"),
     christmas_22: new Date("December 25, 2022"),
     day_one: new Date("November 8, 2022"),
     day_two: new Date("November 11, 2022")
