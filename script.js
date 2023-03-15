@@ -31,6 +31,8 @@ let holidays = {
     labor_day_22: new Date("September 5, 2022"),
     thanksgiving_22: new Date("November 24, 2022"),
     christmas_22: new Date("December 25, 2022"),
+    day_one: new Date("November 11, 2022"),
+    day_two: new Date("November 11, 2022")
 };
 
 
